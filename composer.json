@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "mage-os/magento-cache-clean": "^1.1"
+    }
+}
