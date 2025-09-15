@@ -20,14 +20,35 @@ class UpgradeSchema implements UpgradeSchemaInterface
         $installer->startSetup();
 
         // Action to do if module version is less than 1.0.0.0
-        if (version_compare($context->getVersion(), '1.0.0.0') < 0) {
+        if (version_compare($context->getVersion(), '1.0.0.2') < 0) {
 
             /**
              * Create table 'magemastery_jobs'
              */
 
+            $tableName = $installer->getTable('magemastery_department');
+
+            $fullTextIndex = ['name'];
+
+            $setup->getConnection()->addIndex(
+                $tableName,
+                $installer->getIdxName($tableName, $fullTextIndex),
+                $fullTextIndex,
+                \Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT
+            );
+
             $tableName = $installer->getTable('magemastery_job');
             $tableComment = 'Job management on Magento 2';
+
+            $fullTextIndex = ['title', 'type', 'location', 'description'];
+
+            $setup->getConnection()->addIndex(
+                $tableName,
+                $installer->getIdxName($tableName, $fullTextIndex, \Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT),
+                $fullTextIndex,
+                \Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT
+            );
+
             $columns = array(
                 'entity_id' => array(
                     'type' => Table::TYPE_INTEGER,

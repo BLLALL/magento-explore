@@ -11,3 +11,1263 @@
 [2025-09-10T10:02:19.032515+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
 [2025-09-10T10:02:57.774562+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
 [2025-09-10T11:05:00.478561+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-10T12:51:21.029295+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.032635+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.032866+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.033150+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.033345+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.033512+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.033664+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.033814+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.033960+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.034104+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.034278+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.034486+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.034632+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.034778+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.034925+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.035253+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.035499+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.035654+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:51:21.035897+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:51:21.036067+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:51:21.036192+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:51:21.036318+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:51:21.036439+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-10T12:51:21.036586+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:51:21.036711+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:51:21.036843+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-10T12:52:23.724325+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.724858+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.724978+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725087+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725194+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725335+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725440+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725544+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725772+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725876+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.725979+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726095+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726198+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726315+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726437+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726560+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726725+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.726890+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-10T12:52:23.727040+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:52:23.727155+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:52:23.727275+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:52:23.727381+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:52:23.727488+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-10T12:52:23.727609+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:52:23.727715+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-10T12:52:23.727826+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-10T12:52:39.247763+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:52:49.071825+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:53:58.240185+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:56:01.498711+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:56:19.949818+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:56:43.626794+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:56:47.821083+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:56:51.260122+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T12:57:03.900163+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:02:25.959450+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-10T13:02:43.410855+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-10T13:10:07.789362+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:10:13.885855+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:11:41.368164+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:11:48.732760+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:13:33.416765+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:19:03.852567+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:19:43.520805+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:24:12.523903+00:00] main.ERROR: There are no commands defined in the "clear" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(720): Symfony\Component\Console\Application->findNamespace('clear')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('clear:cache')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2025-09-10T13:24:21.356683+00:00] main.ERROR: Command "cache:clear" is not defined.
+
+Did you mean one of these?
+    cache:clean
+    cache:clean:payment_services_merchant_scopes
+    cache:disable
+    cache:enable
+    cache:flush
+    cache:status
+#0 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cache:clear')
+#1 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2025-09-10T13:24:52.558485+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:26:36.909787+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-10T13:26:42.403739+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T06:42:17.392746+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.396393+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.396627+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.396813+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.396990+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.397479+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.397660+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.397788+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.397912+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398033+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398288+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398413+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398551+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398690+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398822+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.398944+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.403187+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.403374+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:17.403576+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:17.403714+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:17.403835+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:17.403956+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:17.404075+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T06:42:17.404220+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:17.404343+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:17.404473+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T06:42:21.831478+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.831820+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.831943+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832061+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832162+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832309+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832410+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832513+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832648+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832746+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832844+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.832940+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833062+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833160+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833257+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833354+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833495+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833639+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T06:42:21.833759+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:21.833859+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:21.833956+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:21.834052+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:21.834149+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T06:42:21.834277+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:21.834378+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T06:42:21.834482+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T06:42:37.164597+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T06:42:42.811363+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T07:43:10.083406+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.087261+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.087473+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.087648+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.087817+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.087990+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.088319+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.088496+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.088661+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.088826+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.088991+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.089183+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.089463+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.089663+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.089839+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.090004+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.090316+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.090533+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:10.090858+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:10.091063+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:10.091559+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:10.091813+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:10.091979+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T07:43:10.092201+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:10.092384+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:10.092598+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T07:43:14.797817+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.800635+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.800798+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801078+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801219+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801365+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801505+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801643+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801780+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.801915+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.802051+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.802186+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.802383+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.802521+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.802657+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.802817+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.803004+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.803148+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T07:43:14.803344+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:14.803497+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:14.803668+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:14.803826+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:14.804024+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T07:43:14.804439+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:14.804646+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T07:43:14.804881+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T07:43:41.259867+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T07:43:45.133706+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T07:43:48.317914+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T07:49:18.172596+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T07:57:43.865999+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T07:59:37.901374+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:07:35.722625+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:16:53.007368+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:21:43.802146+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:22:09.440352+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:24:25.541245+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:29:39.933156+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:35:47.566311+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T08:36:02.931342+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:09:17.266495+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.269312+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.269519+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.269677+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.269825+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.270364+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.270968+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.271202+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.271761+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.272049+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.272312+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.272555+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.272746+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.272935+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.273133+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.273347+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.273792+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.274037+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:17.274634+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:17.274843+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:17.275047+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:17.275257+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:17.275481+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T09:09:17.275949+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:17.278718+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:17.279381+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T09:09:22.428663+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.429646+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.429863+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430016+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430192+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430378+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430520+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430662+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430802+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.430944+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.431086+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.431311+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.431452+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.431595+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.431736+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.431875+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.432043+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.432263+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:09:22.432537+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:22.432761+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:22.432890+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:22.433013+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:22.433171+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T09:09:22.433352+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:22.433522+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:09:22.433694+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T09:09:45.074673+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:09:57.526258+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:26:19.939359+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.943027+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.943199+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.943324+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.943492+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.943707+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.943869+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.944028+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.944228+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.944387+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.944543+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.944699+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.944856+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.945012+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.945194+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.945364+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.945604+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.945769+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:19.945977+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:19.946137+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:19.946512+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:19.946671+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:19.946828+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T09:26:19.947010+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:19.947210+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:19.947375+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T09:26:24.933803+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.934263+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.934423+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.934555+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.934685+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.934835+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.934974+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935083+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935204+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935338+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935441+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935543+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935643+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935742+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935841+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.935942+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.936090+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.936506+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:26:24.936633+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:24.936736+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:24.936836+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:24.936935+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:24.937034+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T09:26:24.937159+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:24.937284+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:26:24.937393+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T09:26:39.264235+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:26:44.834412+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'datasource': This element is not expected. Expected is one of ( settings, actions, actionsColumn, bookmark, boolean, button, checkbox, checkboxset, colorPicker, column ).
+Line: 10
+The xml was: 
+5:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+6:            <!-- same string as above -->
+7:            <item name="deps" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+8:        </item>
+9:    </argument>
+10:    <datasource>
+11:        <argument name="dataProvider" xsi:type="configurableObject">
+12:            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+13:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument>
+14:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
+
+Verify the XML and try again. [] []
+[2025-09-14T09:26:46.207881+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T09:27:25.719131+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'datasource': This element is not expected. Expected is one of ( settings, actions, actionsColumn, bookmark, boolean, button, checkbox, checkboxset, colorPicker, column ).
+Line: 10
+The xml was: 
+5:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+6:            <!-- same string as above -->
+7:            <item name="deps" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+8:        </item>
+9:    </argument>
+10:    <datasource name="jobs_department_listing_data_source">
+11:        <argument name="dataProvider" xsi:type="configurableObject">
+12:            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+13:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument>
+14:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
+
+Verify the XML and try again. [] []
+[2025-09-14T09:27:28.047889+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'datasource': This element is not expected. Expected is one of ( settings, actions, actionsColumn, bookmark, boolean, button, checkbox, checkboxset, colorPicker, column ).
+Line: 10
+The xml was: 
+5:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+6:            <!-- same string as above -->
+7:            <item name="deps" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+8:        </item>
+9:    </argument>
+10:    <datasource name="jobs_department_listing_data_source">
+11:        <argument name="dataProvider" xsi:type="configurableObject">
+12:            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+13:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument>
+14:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
+
+Verify the XML and try again. [] []
+[2025-09-14T09:28:53.600536+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'datasource': This element is not expected. Expected is one of ( settings, actions, actionsColumn, bookmark, boolean, button, checkbox, checkboxset, colorPicker, column ).
+Line: 10
+The xml was: 
+5:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+6:            <!-- same string as above -->
+7:            <item name="deps" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+8:        </item>
+9:    </argument>
+10:    <datasource name="jobs_department_listing_data_source">
+11:        <argument name="dataProvider" xsi:type="configurableObject">
+12:            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+13:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument>
+14:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
+
+Verify the XML and try again. [] []
+[2025-09-14T09:31:07.118460+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'datasource': This element is not expected. Expected is one of ( settings, actions, actionsColumn, bookmark, boolean, button, checkbox, checkboxset, colorPicker, column ).
+Line: 10
+The xml was: 
+5:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+6:            <!-- same string as above -->
+7:            <item name="deps" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+8:        </item>
+9:    </argument>
+10:    <datasource name="jobs_department_listing_data_source">
+11:        <argument name="dataProvider" xsi:type="configurableObject">
+12:            <argument name="class" xsi:type="string">DepartmentGridDataProvider</argument>
+13:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument>
+14:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
+
+Verify the XML and try again. [] []
+[2025-09-14T09:31:09.869038+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T09:33:14.859533+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:54:01.205491+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.208903+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209058+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209199+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209325+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209464+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209608+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209730+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209851+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.209971+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.210090+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.210221+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.210341+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.210458+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.210576+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.210813+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.211022+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.211153+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:01.211350+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:01.211478+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:01.211600+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:01.211719+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:01.211996+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T09:54:01.212210+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:01.212346+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:01.212483+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T09:54:04.147055+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.147410+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.147527+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.147660+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.147767+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.147896+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148002+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148108+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148265+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148390+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148506+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148629+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148749+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148849+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.148957+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.149058+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.149215+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.149324+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T09:54:04.149446+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:04.149569+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:04.149669+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:04.149767+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:04.149865+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T09:54:04.149981+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:04.150084+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T09:54:04.150210+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T09:54:14.107268+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:54:19.822021+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:54:23.428651+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T09:57:14.756780+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Unescaped '<' not allowed in attributes values
+Line: 39
+
+attributes construct error
+Line: 39
+
+Couldn't find end of Start Tag container line 38
+Line: 39
+
+Opening and ending tag mismatch: listing line 1 and container
+Line: 46
+
+Extra content at the end of the document
+Line: 47
+
+Verify the XML and try again. [] []
+[2025-09-14T09:57:16.055508+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T09:58:18.305227+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:33:00.847005+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.850694+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.850888+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851046+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851179+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851317+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851450+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851733+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851863+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.851990+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852116+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852242+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852367+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852494+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852647+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852793+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.852999+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.853132+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:00.853308+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:00.853444+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:00.853592+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:00.853760+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:00.853887+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T10:33:00.854049+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:00.854194+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:00.854331+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T10:33:04.844606+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845014+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845174+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845344+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845479+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845670+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845804+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.845932+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846059+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846186+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846311+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846439+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846564+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846734+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.846998+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.847153+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.847363+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.847536+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T10:33:04.848244+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:04.848540+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:04.848741+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:04.848904+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:04.849091+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T10:33:04.849302+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:04.849478+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T10:33:04.849689+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T10:33:15.762260+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:33:19.013717+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Opening and ending tag mismatch: bookmark line 45 and container
+Line: 54
+
+Opening and ending tag mismatch: container line 38 and listing
+Line: 55
+
+Premature end of data in tag listing line 1
+Line: 56
+
+Verify the XML and try again. [] []
+[2025-09-14T10:33:19.494611+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T10:33:58.969383+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Opening and ending tag mismatch: item line 47 and argument
+Line: 53
+
+Opening and ending tag mismatch: argument line 46 and container
+Line: 54
+
+Opening and ending tag mismatch: bookmark line 45 and listing
+Line: 55
+
+Premature end of data in tag container line 38
+Line: 56
+
+Verify the XML and try again. [] []
+[2025-09-14T10:34:00.250722+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Opening and ending tag mismatch: item line 47 and argument
+Line: 53
+
+Opening and ending tag mismatch: argument line 46 and container
+Line: 54
+
+Opening and ending tag mismatch: bookmark line 45 and listing
+Line: 55
+
+Premature end of data in tag container line 38
+Line: 56
+
+Verify the XML and try again. [] []
+[2025-09-14T10:34:02.096286+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Opening and ending tag mismatch: item line 47 and argument
+Line: 53
+
+Opening and ending tag mismatch: argument line 46 and container
+Line: 54
+
+Opening and ending tag mismatch: bookmark line 45 and listing
+Line: 55
+
+Premature end of data in tag container line 38
+Line: 56
+
+Verify the XML and try again. [] []
+[2025-09-14T10:34:55.646581+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:35:26.391756+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:36:47.793838+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:37:51.499211+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:41:35.519638+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:41:37.014102+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:41:37.014832+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:41:53.902973+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:41:55.881000+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:41:57.379064+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:41:57.379423+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:42:33.348262+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'listing': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 8
+The xml was: 
+3: * Copyright © 2015 Magento. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+8:    <!-- Integration -->
+9:    <argument name="data" xsi:type="array">
+10:        <item name="js_config" xsi:type="array">
+11:            <!-- we define a provider -->
+12:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+
+Element 'listing': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 8
+The xml was: 
+3: * Copyright © 2015 Magento. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+8:    <!-- Integration -->
+9:    <argument name="data" xsi:type="array">
+10:        <item name="js_config" xsi:type="array">
+11:            <!-- we define a provider -->
+12:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+
+Element 'listing': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 8
+The xml was: 
+3: * Copyright © 2015 Magento. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+8:    <!-- Integration -->
+9:    <argument name="data" xsi:type="array">
+10:        <item name="js_config" xsi:type="array">
+11:            <!-- we define a provider -->
+12:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+
+Element 'listing': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 8
+The xml was: 
+3: * Copyright © 2015 Magento. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+8:    <!-- Integration -->
+9:    <argument name="data" xsi:type="array">
+10:        <item name="js_config" xsi:type="array">
+11:            <!-- we define a provider -->
+12:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+
+Element 'dataSource': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 30
+The xml was: 
+25:            </item>
+26:        </item>
+27:    </argument>
+28:    <!-- Data source -->
+29:    <dataSource name="jobs_department_listing_data_source">
+30:        <argument name="dataProvider" xsi:type="configurableObject">
+31:            <argument name="class" xsi:type="string">DepartmentGridDataProvider</argument> <!-- Data provider class -->
+32:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument> <!-- provider defined above -->
+33:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument> <!-- Primary key -->
+34:            <argument name="requestFieldName" xsi:type="string">id</argument> <!-- URL name parameter -->
+
+Element 'dataSource': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 30
+The xml was: 
+25:            </item>
+26:        </item>
+27:    </argument>
+28:    <!-- Data source -->
+29:    <dataSource name="jobs_department_listing_data_source">
+30:        <argument name="dataProvider" xsi:type="configurableObject">
+31:            <argument name="class" xsi:type="string">DepartmentGridDataProvider</argument> <!-- Data provider class -->
+32:            <argument name="name" xsi:type="string">jobs_department_listing_data_source</argument> <!-- provider defined above -->
+33:            <argument name="primaryFieldName" xsi:type="string">entity_id</argument> <!-- Primary key -->
+34:            <argument name="requestFieldName" xsi:type="string">id</argument> <!-- URL name parameter -->
+
+Element 'listing': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 8
+The xml was: 
+3: * Copyright © 2015 Magento. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+8:    <!-- Integration -->
+9:    <argument name="data" xsi:type="array">
+10:        <item name="js_config" xsi:type="array">
+11:            <!-- we define a provider -->
+12:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+
+Element 'listing': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 8
+The xml was: 
+3: * Copyright © 2015 Magento. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+8:    <!-- Integration -->
+9:    <argument name="data" xsi:type="array">
+10:        <item name="js_config" xsi:type="array">
+11:            <!-- we define a provider -->
+12:            <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing_data_source</item>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 51
+The xml was: 
+46:        </argument>
+47:    </dataSource>
+48: 
+49:    <!-- Container Listing Top -->
+50:    <container name="listing_top">
+51:        <argument name="data" xsi:type="array">
+52:            <item name="config" xsi:type="array">
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 51
+The xml was: 
+46:        </argument>
+47:    </dataSource>
+48: 
+49:    <!-- Container Listing Top -->
+50:    <container name="listing_top">
+51:        <argument name="data" xsi:type="array">
+52:            <item name="config" xsi:type="array">
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 51
+The xml was: 
+46:        </argument>
+47:    </dataSource>
+48: 
+49:    <!-- Container Listing Top -->
+50:    <container name="listing_top">
+51:        <argument name="data" xsi:type="array">
+52:            <item name="config" xsi:type="array">
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+
+Element 'bookmark': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 58
+The xml was: 
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+56:        <!-- Button to manage views -->
+57:        <bookmark name="bookmarks">
+58:            <argument name="data" xsi:type="array">
+59:                <item name="config" xsi:type="array">
+60:                    <item name="component" xsi:type="string">Magento_Ui/js/grid/controls/bookmarks/bookmarks</item>
+61:                    <item name="displayArea" xsi:type="string">dataGridActions</item>
+62:                    <item name="storageConfig" xsi:type="array">
+
+Element 'bookmark': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 58
+The xml was: 
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+56:        <!-- Button to manage views -->
+57:        <bookmark name="bookmarks">
+58:            <argument name="data" xsi:type="array">
+59:                <item name="config" xsi:type="array">
+60:                    <item name="component" xsi:type="string">Magento_Ui/js/grid/controls/bookmarks/bookmarks</item>
+61:                    <item name="displayArea" xsi:type="string">dataGridActions</item>
+62:                    <item name="storageConfig" xsi:type="array">
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 51
+The xml was: 
+46:        </argument>
+47:    </dataSource>
+48: 
+49:    <!-- Container Listing Top -->
+50:    <container name="listing_top">
+51:        <argument name="data" xsi:type="array">
+52:            <item name="config" xsi:type="array">
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 51
+The xml was: 
+46:        </argument>
+47:    </dataSource>
+48: 
+49:    <!-- Container Listing Top -->
+50:    <container name="listing_top">
+51:        <argument name="data" xsi:type="array">
+52:            <item name="config" xsi:type="array">
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 72
+The xml was: 
+67:                </item>
+68:            </argument>
+69:        </bookmark>
+70:        <!-- Button to manage columns -->
+71:        <container name="columns_controls">
+72:            <argument name="data" xsi:type="array">
+73:                <item name="config" xsi:type="array">
+74:                    <item name="columnsData" xsi:type="array">
+75:                        <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing.jobs_department_columns</item>
+76:                    </item>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 72
+The xml was: 
+67:                </item>
+68:            </argument>
+69:        </bookmark>
+70:        <!-- Button to manage columns -->
+71:        <container name="columns_controls">
+72:            <argument name="data" xsi:type="array">
+73:                <item name="config" xsi:type="array">
+74:                    <item name="columnsData" xsi:type="array">
+75:                        <item name="provider" xsi:type="string">jobs_department_listing.jobs_department_listing.jobs_department_columns</item>
+76:                    </item>
+
+Element 'container': Character content other than whitespace is not allowed because the content type is 'element-only'.
+Line: 51
+The xml was: 
+46:        </argument>
+47:    </dataSource>
+48: 
+49:    <!-- Container Listing Top -->
+50:    <container name="listing_top">
+51:        <argument name="data" xsi:type="array">
+52:            <item name="config" xsi:type="array">
+53:                <item name="template" xsi:type="string">ui/grid/toolbar</item>
+54:            </item>
+55:        </argument>
+
+Verify the XML and try again. [] []
+[2025-09-14T10:42:33.915167+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T10:47:55.243420+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:47:56.743508+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:47:56.744237+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:49:08.705534+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T10:49:10.453724+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:49:10.459934+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T10:50:57.294226+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:08:37.684138+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.684589+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.684740+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.684901+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.685149+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.685451+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.685656+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.685890+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.686075+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.686277+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.686452+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.686813+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.690295+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.691132+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.691507+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.692314+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.693671+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.694199+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:37.694514+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:37.694897+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:37.695242+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:37.695508+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:37.695715+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T11:08:37.696050+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:37.696292+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:37.696601+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T11:08:41.242265+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.242647+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.242812+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.242991+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.243183+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.243377+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.243535+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.243654+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.243810+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.243925+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244069+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244210+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244350+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244489+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244629+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244775+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.244964+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.245109+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:08:41.245281+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:41.245425+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:41.245596+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:41.245748+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:41.245891+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T11:08:41.246051+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:41.246195+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:08:41.246344+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T11:08:48.387266+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:08:53.914916+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:08:55.373113+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:08:55.373979+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:10:02.292718+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:10:04.143536+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:10:04.145247+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:26:20.319024+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.320455+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.320784+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.321107+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.322165+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.322427+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.322617+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.322813+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.323003+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.323805+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.324471+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.324775+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.330303+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.331291+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.334206+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.334527+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.335273+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.337041+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:20.337399+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:20.337624+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:20.337858+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:20.338067+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:20.338270+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T11:26:20.338622+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:20.338891+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:20.339127+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T11:26:22.418013+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.418302+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.418419+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.418573+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.418711+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.418864+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.418999+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.419158+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.419336+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.419626+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.419851+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.419983+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420090+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420218+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420333+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420462+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420655+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420784+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T11:26:22.420931+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:22.421038+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:22.421159+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:22.421324+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:22.421512+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T11:26:22.421798+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:22.422057+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T11:26:22.422303+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T11:26:30.647485+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:26:33.595547+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:26:35.010656+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:26:35.012066+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:41:02.619467+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:41:04.462146+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:41:04.462579+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:41:43.607221+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:42:54.953950+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T11:42:56.520887+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T11:42:56.521881+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:04:55.008245+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.016692+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.016978+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.017119+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.017283+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.017485+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.017640+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.017820+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.018114+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.018337+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.018542+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.018807+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.018934+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.019054+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.019176+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.019296+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.019501+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.019627+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:04:55.020123+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:04:55.020298+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:04:55.020447+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:04:55.020704+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:04:55.020862+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T12:04:55.021130+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:04:55.021266+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:04:55.021429+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T12:05:03.344830+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345166+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345302+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345418+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345557+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345674+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345797+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.345910+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346021+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346133+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346243+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346352+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346462+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346572+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346681+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346800+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.346954+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.347092+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T12:05:03.347240+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:05:03.347401+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:05:03.347522+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:05:03.347654+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:05:03.347771+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T12:05:03.347892+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:05:03.348004+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T12:05:03.348122+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T12:05:15.718413+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:05:20.145932+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:05:21.550933+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:05:21.551825+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:08:21.506307+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'actionColumn': This element is not expected. Expected is one of ( settings, column, actionsColumn, selectionsColumn ).
+Line: 119
+The xml was: 
+114:                </item>
+115:                    <item name="label" xsi:type="string" translate="true">Name</item>
+116:                </item>
+117:            </argument>
+118:        </column>
+119:        <actionColumn name="actions" class="MageMastery\Jobs\Ui\Component\Listing\Column\DepartmentActions">
+120:            <argument name="data" xsi:type="array">
+121:                <item name="config" xsi:type="array">
+122:                    <item name="resizeEnabled" xsi:type="boolean">false</item>
+123:                    <item name="resizeDefaultWidth" xsi:type="string">55</item>
+
+Verify the XML and try again. [] []
+[2025-09-14T12:08:22.748234+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T12:08:44.766458+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:08:44.830300+00:00] main.ERROR: Class "MageMastery\Jobs\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-09-14T12:10:22.937021+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:10:23.004862+00:00] main.ERROR: Class "MageMastery\Jobs\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-09-14T12:12:23.661617+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:12:25.077154+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:12:25.078514+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:12:30.279507+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:12:33.177245+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:12:34.489384+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:12:34.490377+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:14:03.289025+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:14:04.637633+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:14:04.637990+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:16:17.840827+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:16:20.047777+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:16:21.544983+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:16:21.545379+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:16:24.945948+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:16:27.183011+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:17:11.947089+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:17:11.949158+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:28:08.297226+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:28:10.099352+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:28:10.103571+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:29:44.973439+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:29:46.576680+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:29:46.577430+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:30:52.755553+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:30:54.455976+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:30:54.458359+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:37:31.116044+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:37:32.768335+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:37:32.768992+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:38:52.634670+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:38:52.668232+00:00] main.ERROR: Class "Maxime\Jobs\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-09-14T12:38:53.578645+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T12:39:08.615177+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:39:31.563945+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:39:32.879954+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:39:32.880433+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:46:36.249842+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:46:38.203144+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:46:38.207270+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:51:06.737651+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:51:08.436714+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:51:08.440507+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:51:18.040943+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:51:19.844243+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:51:19.845428+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:55:01.569739+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T12:55:03.319658+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T12:55:03.320947+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:04:26.698079+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T13:04:40.269680+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:04:40.281645+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:10:26.537712+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T13:10:29.834639+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:10:29.836106+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:14:16.570946+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T13:14:28.847477+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:14:28.853173+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:20:28.356141+00:00] main.ERROR: The XML in file "/var/www/html/app/code/MageMastery/Jobs/view/adminhtml/ui_component/jobs_department_listing.xml" is invalid:
+Element 'field': This element is not expected. Expected is one of ( settings, filterDate, filterInput, filterSelect ).
+Line: 93
+The xml was: 
+88:                <argument name="data" xsi:type="array">
+89:                    <item name="config" xsi:type="array">
+90:                        <item name="dataScope" xsi:type="string">entity_id</item> <item name="label" xsi:type="string" translate="true">ID</item>
+91:                    </item>
+92:                </argument>
+93:                <field name="from">
+94:                    <argument name="data" xsi:type="array">
+95:                        <item name="config" xsi:type="array">
+96:                            <item name="dataScope" xsi:type="string">from</item>
+97:                            <item name="label" xsi:type="string" translate="true">From</item>
+
+Verify the XML and try again. [] []
+[2025-09-14T13:20:30.185035+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-14T13:20:35.836657+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T13:20:37.752758+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:20:37.753915+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:24:51.504762+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T13:24:53.018740+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T13:24:53.019468+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/Magento_Ui/js/grid/controls/columns/columns.js' [] []
+[2025-09-14T14:03:10.789257+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.792130+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.792309+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.792614+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.793030+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.793263+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.793962+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.794489+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.795002+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.795250+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.795459+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.795716+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.795975+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.796244+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.796704+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.797040+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.797355+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.797831+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:10.798052+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:10.798187+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:10.798321+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:10.798607+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:10.799026+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T14:03:10.799370+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:10.799619+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:10.799911+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T14:03:13.687657+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688186+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688328+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688440+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688542+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688648+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688777+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.688904+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689008+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689110+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689210+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689341+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689459+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689618+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689785+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.689977+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.690188+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.690314+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-14T14:03:13.690504+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:13.690637+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:13.690810+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:13.690987+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:13.691395+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-14T14:03:13.691878+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:13.692082+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-14T14:03:13.693201+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-14T14:03:25.483158+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T14:03:31.772742+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-14T14:07:02.370489+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:05:27.218858+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.220078+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.220232+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.220375+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.220679+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.220826+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221076+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221227+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221374+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221515+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221655+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221788+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.221923+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.222057+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.222193+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.222329+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.222587+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.222729+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:27.222914+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:27.223047+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:27.223184+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:27.223314+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:27.223439+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-15T07:05:27.223631+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:27.223805+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:27.223936+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-15T07:05:34.686525+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.687074+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.687264+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.687598+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.687784+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.688107+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.688404+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.688562+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.688827+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.689030+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.689279+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.689527+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.689751+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.689949+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.690065+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.690227+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.690600+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.690887+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-15T07:05:34.691157+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:34.691328+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:34.691449+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:34.691570+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:34.691791+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-15T07:05:34.692057+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:34.692479+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-15T07:05:34.692993+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-15T07:05:42.547695+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:05:46.918133+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:15:45.287439+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:16:47.969629+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:18:04.895677+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:25:19.786931+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:35:14.245795+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:36:52.064679+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:37:42.019982+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:45:11.562724+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:57:30.075117+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:57:51.705283+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:59:19.764981+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:59:31.109166+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-15T07:59:33.213939+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
