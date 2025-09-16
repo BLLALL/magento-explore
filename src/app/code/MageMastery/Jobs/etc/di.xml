@@ -11,6 +11,7 @@
             <arguments>
                 <argument name="collections" xsi:type="array">
                     <item name="jobs_department_listing_data_source" xsi:type="string">MageMastery\Jobs\Model\ResourceModel\Grid\Department\Collection</item>
+                    <item name="jobs_job_listing_data_source" xsi:type="string">MageMastery\Jobs\Model\ResourceModel\Grid\Job\Collection</item>
                 </argument>
             </arguments>
     </type>
@@ -29,5 +30,28 @@
             <argument name="filterPool" xsi:type="object" shared="false">DepartmentGridFilterPool</argument>
         </arguments>
     </virtualType>
+
+<virtualType name="MageMastery\Jobs\Model\ResourceModel\Grid\Job\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+    <arguments>
+        <argument name="mainTable" xsi:type="string">magemastery_job</argument>
+        <argument name="resourceModel" xsi:type="string">MageMastery\Jobs\Model\ResourceModel\Job</argument>
+    </arguments>
+</virtualType>
+
+
+<virtualType name="JobGridDataProvider" type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
+    <arguments>
+        <argument name="filterPool" xsi:type="object" shared="false">JobGridFilterPool</argument>
+    </arguments>
+</virtualType>
+
+<virtualType name="JobGridFilterPool" type="Magento\Framework\View\Element\UiComponent\DataProvider\FilterPool">
+    <arguments>
+        <argument name="appliers" xsi:type="array">
+            <item name="regular" xsi:type="object">Magento\Framework\View\Element\UiComponent\DataProvider\RegularFilter</item>
+            <item name="fulltext" xsi:type="object">Magento\Framework\View\Element\UiComponent\DataProvider\FulltextFilter</item>
+        </argument>
+    </arguments>
+</virtualType>
 
 </config>

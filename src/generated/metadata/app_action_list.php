@@ -1,6 +1,11 @@
 <?php return array (
   'magemastery\\helloworld\\controller\\say\\hello' => 'MageMastery\\Helloworld\\Controller\\Say\\Hello',
+  'magemastery\\jobs\\controller\\adminhtml\\department\\delete' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Department\\Delete',
+  'magemastery\\jobs\\controller\\adminhtml\\department\\edit' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Department\\Edit',
   'magemastery\\jobs\\controller\\adminhtml\\department\\index' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Department\\Index',
+  'magemastery\\jobs\\controller\\adminhtml\\department\\massdelete' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Department\\MassDelete',
+  'magemastery\\jobs\\controller\\adminhtml\\department\\newaction' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Department\\NewAction',
+  'magemastery\\jobs\\controller\\adminhtml\\department\\save' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Department\\Save',
   'magemastery\\jobs\\controller\\adminhtml\\job\\index' => 'MageMastery\\Jobs\\Controller\\adminhtml\\Job\\Index',
   'magemastery\\popup\\controller\\adminhtml\\popup\\index' => 'MageMastery\\Popup\\Controller\\Adminhtml\\Popup\\Index',
   'magemastery\\popup\\controller\\adminhtml\\popup\\massdisable' => 'MageMastery\\Popup\\Controller\\Adminhtml\\Popup\\MassDisable',

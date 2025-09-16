@@ -4671,6 +4671,16 @@
     'Magento\\Framework\\View\\Element\\UiComponent\\DataProvider\\FilterPool' => NULL,
     'DepartmentGridFilterPool' => NULL,
     'DepartmentGridDataProvider' => NULL,
+    'MageMastery\\Jobs\\Model\\ResourceModel\\Grid\\Job\\Collection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
+    'JobGridDataProvider' => NULL,
+    'JobGridFilterPool' => NULL,
     'Magento\\Framework\\ForeignKey\\Migration\\TableNameArrayIterator' => NULL,
     'OmsTableNameArrayIterator' => NULL,
     'BraintreeFacade' => 
@@ -9757,6 +9767,13 @@
       ),
     ),
     'MageMastery\\Jobs\\Model\\ResourceModel\\Grid\\Department\\Collection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
+    'MageMastery\\Jobs\\Model\\ResourceModel\\Grid\\Job\\Collection_getCurPage___self' => 
     array (
       4 => 
       array (

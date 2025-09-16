@@ -38,11 +38,30 @@ class Job extends AbstractModel
         $this->_init('MageMastery\Jobs\Model\ResourceModel\Job');
     }
 
+    /**
+     * Get enable status
+     *
+     * @return int
+     */
     public function getEnableStatus() {
         return 1;
     }
 
+    /**
+     * Get disable status
+     *
+     * @return int
+     */
     public function getDisableStatus() {
         return 0;
+    }
+
+    /**
+     * Get available statuses
+     *
+     * @return array
+     */
+    public function getAvailableStatuses() {
+        return [$this->getDisableStatus() => __('Disabled'), $this->getEnableStatus() => __('Enabled')];
     }
 }
