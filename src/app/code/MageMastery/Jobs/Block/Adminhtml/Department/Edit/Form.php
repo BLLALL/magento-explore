@@ -41,7 +41,7 @@ class Form extends Generic
     }
     protected function _prepareForm()
     {
-        /** @var \Maxime\Jobs\Model\Department $model */
+        /** @var \MageMastery\Jobs\Model\Department $model */
         $model = $this->_coreRegistry->registry('jobs_department');
 
         /** @var \Magento\Framework\Data\Form $form */
