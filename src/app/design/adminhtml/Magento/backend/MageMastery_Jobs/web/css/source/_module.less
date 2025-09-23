@@ -1,0 +1,12 @@
+@magemasteryjobs-icons-admin__font-name-path: '@{baseDir}fonts/MageMastery_Jobs/jobs';
+@magemasteryjobs-icons-admin__font-name : 'MageMasteryJobs';
+.lib-font-face(
+    @family-name:@magemasteryjobs-icons-admin__font-name,
+    @font-path: @magemasteryjobs-icons-admin__font-name-path,
+    @font-weight: normal,
+    @font-style: normal
+);
+.admin__menu .item-job-head.parent.level-0 > a:before {
+    font-family: @magemasteryjobs-icons-admin__font-name;
+    content: "\e900";
+}

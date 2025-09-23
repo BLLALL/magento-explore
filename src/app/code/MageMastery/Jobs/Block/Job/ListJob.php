@@ -42,7 +42,6 @@ class ListJob extends \Magento\Framework\View\Element\Template
     {
         parent::_prepareLayout();
 
-
         // You can put these informations editable on BO
         $title = __('We are hiring');
         $description = __('Look at the jobs we have got for you');
@@ -77,16 +76,7 @@ class ListJob extends \Magento\Framework\View\Element\Template
     protected function _getJobCollection()
     {
         if ($this->_jobCollection === null) {
-
-            $jobCollection = $this->_job->getCollection()
-                ->addFieldToSelect('*')
-                ->addFieldToFilter('status', $this->_job->getEnableStatus())
-                ->join(
-                    array('department' => $this->_department->getResource()->getMainTable()),
-                    'main_table.department_id = department.'.$this->_job->getIdFieldName(), // How in the hell dep_id == job_id
-                    array('department_name' => 'name')
-                );
-
+            $jobCollection = $this->_job->getCollection()->addStatusFilter($this->_job, $this->_department);
             $this->_jobCollection = $jobCollection;
         }
         return $this->_jobCollection;

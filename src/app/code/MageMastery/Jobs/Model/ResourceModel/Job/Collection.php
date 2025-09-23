@@ -18,4 +18,16 @@ class Collection extends AbstractCollection
         $this->_init('MageMastery\Jobs\Model\Job', 'MageMastery\Jobs\Model\ResourceModel\Job');
     }
 
+    public function addStatusFilter($job, $department)
+    {
+        $this->addFieldToSelect('*')
+            ->addFieldToFilter('status', $job->getEnableStatus())
+            ->join(
+                ['department' => $department->getResource()->getMainTable()],
+                'main_table.department_id = department.' . $department->getIdFieldName(),
+                ['department_name' => 'name']
+            );
+        return $this;
+    }
+
 }

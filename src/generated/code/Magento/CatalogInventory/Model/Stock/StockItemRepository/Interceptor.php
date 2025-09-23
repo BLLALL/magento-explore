@@ -22,4 +22,40 @@ class Interceptor extends \Magento\CatalogInventory\Model\Stock\StockItemReposit
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'save');
         return $pluginInfo ? $this->___callPlugins('save', func_get_args(), $pluginInfo) : parent::save($stockItem);
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function get($stockItemId)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'get');
+        return $pluginInfo ? $this->___callPlugins('get', func_get_args(), $pluginInfo) : parent::get($stockItemId);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getList(\Magento\CatalogInventory\Api\StockItemCriteriaInterface $criteria)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getList');
+        return $pluginInfo ? $this->___callPlugins('getList', func_get_args(), $pluginInfo) : parent::getList($criteria);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function delete(\Magento\CatalogInventory\Api\Data\StockItemInterface $stockItem)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'delete');
+        return $pluginInfo ? $this->___callPlugins('delete', func_get_args(), $pluginInfo) : parent::delete($stockItem);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteById($id)
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'deleteById');
+        return $pluginInfo ? $this->___callPlugins('deleteById', func_get_args(), $pluginInfo) : parent::deleteById($id);
+    }
 }

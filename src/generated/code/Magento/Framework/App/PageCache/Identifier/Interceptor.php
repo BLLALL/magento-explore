@@ -22,4 +22,13 @@ class Interceptor extends \Magento\Framework\App\PageCache\Identifier implements
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getValue');
         return $pluginInfo ? $this->___callPlugins('getValue', func_get_args(), $pluginInfo) : parent::getValue();
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getMarketingParameterPatterns() : array
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getMarketingParameterPatterns');
+        return $pluginInfo ? $this->___callPlugins('getMarketingParameterPatterns', func_get_args(), $pluginInfo) : parent::getMarketingParameterPatterns();
+    }
 }
