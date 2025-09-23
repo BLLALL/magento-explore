@@ -1,0 +1,16 @@
+<?php
+
+namespace MageMastery\Jobs\Helper;
+
+class Data extends \Magento\Framework\App\Helper\AbstractHelper
+{
+    const LIST_JOBS_ENABLED = 'jobs/department/view_list';
+
+    /**
+     * @return bool
+     */
+    public function getListJobEnabled(): bool
+    {
+        return $this->scopeConfig->getValue(self::LIST_JOBS_ENABLED, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+    }
+}

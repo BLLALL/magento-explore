@@ -1,0 +1,8 @@
+[2025-09-23T11:25:51.435001+00:00] magemasteryJob.DEBUG: Debug message [] []
+[2025-09-23T11:25:51.436528+00:00] magemasteryJob.INFO: Info message [] []
+[2025-09-23T11:25:51.436956+00:00] magemasteryJob.NOTICE: Notice message [] []
+[2025-09-23T11:25:51.437332+00:00] magemasteryJob.WARNING: Warning message [] []
+[2025-09-23T11:25:51.437559+00:00] magemasteryJob.ERROR: Error message [] []
+[2025-09-23T11:25:51.437725+00:00] magemasteryJob.CRITICAL: Critical message [] []
+[2025-09-23T11:25:51.437867+00:00] magemasteryJob.ALERT: Alert message [] []
+[2025-09-23T11:25:51.438416+00:00] magemasteryJob.EMERGENCY: Emergency message [] []

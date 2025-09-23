@@ -54,4 +54,20 @@
     </arguments>
 </virtualType>
 
+<!-- logger and handler -->
+<type name="MageMastery\Jobs\Logger\Handler">
+    <arguments>
+        <argument name="filesystem" xsi:type="object">Magento\Framework\filesystem\Driver\File</argument>
+    </arguments>
+</type>
+
+<type name="MageMastery\Jobs\Logger\Logger">
+    <arguments>
+        <argument name="name" xsi:type="string">magemasteryJob</argument>
+        <argument name="handlers" xsi:type="array">
+            <item name="system" xsi:type="object">MageMastery\Jobs\Logger\Handler</item>
+        </argument>
+    </arguments>
+</type>
+
 </config>
