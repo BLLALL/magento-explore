@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+
+    <table name="news_categories" resource="default" engine="innodb" comment="News Categories Table">
+        <column xsi:type="int" name="category_id" padding="10" unsigned="true" nullable="false" identity="true"
+                comment="Category ID"/>
+        <column xsi:type="varchar" name="name" nullable="false" length="255" comment="Category Name"/>
+        <column xsi:type="int" name="parent_id" padding="10" unsigned="true" nullable="true" identity="false"
+                comment="Parent Category ID" />
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Creation Time"/>
+        <column xsi:type="timestamp" name="updated_at" on_update="true" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Modification Time"/>
+
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="category_id"/>
+        </constraint>
+        <constraint xsi:type="foreign" referenceId="NEWS_CATEGORIES_PARENT_ID_NEWS_CATEGORIES_CATEGORY_ID"
+            table="news_categories" column="parent_id" referenceTable="news_categories"
+            referenceColumn="category_id" onDelete="SET NULL"/>
+
+        <index referenceId="CATEGORY_IDENTIFIER" indexType="btree">
+            <column name="category_id"/>
+        </index>
+
+        <!-- <index referenceId="CATEGORY_NAME_CONTENT" indexType="fulltext"> -->
+            <!-- <column name="name"/> -->
+            <!-- <column name="content" /> -->
+        <!-- </index> -->
+    </table>
+
+
+    <table name="news_articles" resource="default" engine="innodb" comment="News Articles Table">
+        <column xsi:type="int" name="article_id" padding="10" unsigned="true" nullable="false" identity="true"
+            comment="Article ID"/>
+        <column xsi:type="varchar" name="title" nullable="false" length="255" comment="Article Title" />
+        <column xsi:type="text" name="content" nullable="false" comment="Article Content"/>
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Creation Time"/>
+        <column xsi:type="timestamp" name="updated_at" on_update="true" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Modification Time"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="article_id"/>
+        </constraint>
+    </table>
+
+    <table name="news_article_category" resource="default" engine="innodb" comment="News Article To Category Link Table">
+        <column xsi:type="int" name="article_id" padding="10" unsigned="true" nullable="false" identity="false"
+            comment="Article ID" />
+        <column xsi:type="int" name="category_id" padding="10" unsigned="true" nullable="false" identity="false"
+            comment="Category ID" />
+
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="article_id" />
+            <column name="category_id" />
+        </constraint>
+
+        <constraint xsi:type="foreign" referenceId="NEWS_ARTICLE_CATEGORY_ARTICLE_ID_NEWS_ARTICLES_ARTICLE_ID"
+            table="news_article_category" column="article_id" referenceTable="news_articles"
+            referenceColumn="article_id" onDelete="CASCADE" />
+
+        <constraint xsi:type="foreign" referenceId="NEWS_ARTICLE_CATEGORY_CTGR_ID_NEWS_CATEGORIES_CATEGORY_ID"
+            table="news_article_category" column="category_id" referenceTable="news_categories"
+            referenceColumn="category_id" onDelete="CASCADE"/>
+    </table>
+
+    </schema>
