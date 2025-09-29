@@ -22,7 +22,6 @@ class View extends \Magento\Framework\View\Element\Template
         \Magento\Framework\View\Element\Template\Context $context,
         \MageMastery\Jobs\Model\Department $department,
         \MageMastery\Jobs\Model\Job $job,
-        array $data = [],
         \MageMastery\Jobs\Helper\Data $helper
     ) {
         $this->_department = $department;
@@ -33,7 +32,6 @@ class View extends \Magento\Framework\View\Element\Template
 
         parent::__construct(
             $context,
-            $data
         );
     }
 

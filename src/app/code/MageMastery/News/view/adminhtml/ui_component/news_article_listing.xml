@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">news_article_listing.news_article_listing_data_source</item>
+        </item>
+    </argument>
+    <settings>
+        <buttons>
+            <button name="add">
+                <url path="*/*/new"/>
+                <class>primary</class>
+                <label translate="true">Add New Article</label>
+            </button>
+        </buttons>
+        <spinner>news_article_columns</spinner>
+        <deps>
+            <dep>news_article_listing.news_article_listing_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="news_article_listing_data_source" component="Magento_Ui/js/grid/provider">
+        <settings>
+            <storageConfig>
+                <param name="indexField" xsi:type="string">article_id</param>
+            </storageConfig>
+            <updateUrl path="mui/index/render"/>
+        </settings>
+        <aclResource>MageMastery_News::articles</aclResource>
+        <dataProvider class="ArticleGridDataProvider" name="news_article_listing_data_source">
+            <settings>
+                <requestFieldName>id</requestFieldName>
+                <primaryFieldName>article_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+    <container name="listing_top">
+        <bookmark name="bookmarks"/>
+        <columnsControls name="columns_controls"/>
+        <filters name="listing_filters"/>
+        <paging name="listing_paging"/>
+    </container>
+    <columns name="news_article_columns">
+        <selectionsColumn name="ids">
+            <settings>
+                <indexField>article_id</indexField>
+            </settings>
+        </selectionsColumn>
+        <column name="article_id">
+            <settings>
+                <filter>textRange</filter>
+                <label translate="true">ID</label>
+                <sorting>asc</sorting>
+            </settings>
+        </column>
+        <column name="title">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">Title</label>
+            </settings>
+        </column>
+        <actionsColumn name="actions" class="MageMastery\News\Ui\Component\Listing\Column\Actions">
+            <settings>
+                <indexField>article_id</indexField>
+            </settings>
+        </actionsColumn>
+    </columns>
+</listing>

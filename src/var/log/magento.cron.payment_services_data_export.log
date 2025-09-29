@@ -1,0 +1,14 @@
+
+In ServiceManager.php line 649:
+                                                                               
+  Service with name "Magento\Indexer\Console\Command\IndexerReindexCommand" c  
+  ould not be created. Reason: Class "Magento\Indexer\Console\Command\Indexer  
+  ReindexCommand\Interceptor" does not exist                                   
+                                                                               
+
+In ClassReader.php line 34:
+                                                                               
+  Class "Magento\Indexer\Console\Command\IndexerReindexCommand\Interceptor" d  
+  oes not exist                                                                
+                                                                               
+

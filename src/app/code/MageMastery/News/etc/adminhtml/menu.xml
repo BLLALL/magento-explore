@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageMastery_News::news" title="News" module="MageMastery_News" sortOrder="100" resource="MageMastery_News::news" />
+        <add id="MageMastery_News::categories" title="Categories" module="MageMastery_News" sortOrder="10" parent="MageMastery_News::news" action="news/categories" resource="MageMastery_News::categories" />
+        <add id="MageMastery_News::articles" title="Articles" module="MageMastery_News" sortOrder="20" parent="MageMastery_News::news" action="news/articles" resource="MageMastery_News::articles" />
+    </menu>
+</config>
+
+

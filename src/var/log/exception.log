@@ -1456,3 +1456,74 @@ Stack trace:
 #48 /var/www/html/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
 #49 /var/www/html/pub/index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
 #50 {main} {"exception":"[object] (Error(code: 0): Call to a member function getData() on null at /var/www/html/vendor/magento/module-ui/Component/Listing.php:62)"} []
+[2025-09-28T08:00:04.908570+00:00] main.CRITICAL: LogicException: Could not create an acl object: The XML in file "/var/www/html/app/code/MageMastery/News/etc/acl.xml" is invalid:
+Opening and ending tag mismatch: resource line 11 and resources
+Line: 17
+
+Opening and ending tag mismatch: resources line 10 and acl
+Line: 18
+
+Opening and ending tag mismatch: acl line 9 and config
+Line: 19
+
+Premature end of data in tag config line 8
+Line: 20
+
+Verify the XML and try again. in /var/www/html/vendor/magento/framework/Acl/Builder.php:73
+Stack trace:
+#0 /var/www/html/vendor/magento/module-authorization/Model/ResourceModel/Rules.php(116): Magento\Framework\Acl\Builder->getAcl()
+#1 /var/www/html/vendor/magento/module-authorization/Model/Rules.php(56): Magento\Authorization\Model\ResourceModel\Rules->saveRel(Object(Magento\Authorization\Model\Rules))
+#2 /var/www/html/vendor/magento/module-integration/Model/AuthorizationService.php(198): Magento\Authorization\Model\Rules->saveRel()
+#3 /var/www/html/vendor/magento/module-integration/Model/AuthorizationService.php(103): Magento\Integration\Model\AuthorizationService->_associateResourcesWithRole(Object(Magento\Authorization\Model\Role\Interceptor), Array)
+#4 /var/www/html/vendor/magento/module-integration/Model/Plugin/Integration.php(159): Magento\Integration\Model\AuthorizationService->grantPermissions('1', Array)
+#5 /var/www/html/vendor/magento/module-integration/Model/Plugin/Integration.php(94): Magento\Integration\Model\Plugin\Integration->_saveApiPermissions(Object(Magento\Integration\Model\Integration))
+#6 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(146): Magento\Integration\Model\Plugin\Integration->afterUpdate(Object(Magento\Integration\Model\IntegrationService\Interceptor), Object(Magento\Integration\Model\Integration), Array)
+#7 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Integration\Model\IntegrationService\Interceptor->Magento\Framework\Interception\{closure}(Array)
+#8 /var/www/html/generated/code/Magento/Integration/Model/IntegrationService/Interceptor.php(32): Magento\Integration\Model\IntegrationService\Interceptor->___callPlugins('update', Array, Array)
+#9 /var/www/html/vendor/magento/module-analytics/Model/IntegrationManager.php(70): Magento\Integration\Model\IntegrationService\Interceptor->update(Array)
+#10 /var/www/html/vendor/magento/module-analytics/Model/Connector/SignUpCommand.php(99): Magento\Analytics\Model\IntegrationManager->activateIntegration()
+#11 /var/www/html/vendor/magento/module-analytics/Model/Connector.php(62): Magento\Analytics\Model\Connector\SignUpCommand->execute()
+#12 /var/www/html/vendor/magento/module-analytics/Cron/SignUp.php(80): Magento\Analytics\Model\Connector->execute('signUp')
+#13 [internal function]: Magento\Analytics\Cron\SignUp->execute(Object(Magento\Cron\Model\Schedule))
+#14 /var/www/html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(383): call_user_func_array(Array, Array)
+#15 /var/www/html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(906): Magento\Cron\Observer\ProcessCronQueueObserver->_runJob(1759046400, 1759046402, Array, Object(Magento\Cron\Model\Schedule), 'default')
+#16 /var/www/html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(867): Magento\Cron\Observer\ProcessCronQueueObserver->tryRunJob(1759046400, 1759046402, Array, Object(Magento\Cron\Model\Schedule), 'default')
+#17 /var/www/html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(299): Magento\Cron\Observer\ProcessCronQueueObserver->processPendingJobs('default', Array, 1759046402)
+#18 /var/www/html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\Cron\Observer\ProcessCronQueueObserver->execute(Object(Magento\Framework\Event\Observer))
+#19 /var/www/html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\Cron\Observer\ProcessCronQueueObserver), Object(Magento\Framework\Event\Observer))
+#20 /var/www/html/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#21 /var/www/html/generated/code/Magento/Framework/Event/Manager/Proxy.php(105): Magento\Framework\Event\Manager->dispatch('default', Array)
+#22 /var/www/html/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch('default')
+#23 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#24 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#25 /var/www/html/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#26 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#27 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#28 /var/www/html/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#29 /var/www/html/vendor/magento/module-cron/Console/Command/CronCommand.php(142): Magento\Framework\App\Cron\Interceptor->launch()
+#30 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#31 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#32 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#33 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#34 /var/www/html/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#35 /var/www/html/vendor/symfony/console/Application.php(1078): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#36 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#37 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#38 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#39 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#40 {main} {"exception":"[object] (LogicException(code: 0): Could not create an acl object: The XML in file \"/var/www/html/app/code/MageMastery/News/etc/acl.xml\" is invalid:
+Opening and ending tag mismatch: resource line 11 and resources
+Line: 17
+
+Opening and ending tag mismatch: resources line 10 and acl
+Line: 18
+
+Opening and ending tag mismatch: acl line 9 and config
+Line: 19
+
+Premature end of data in tag config line 8
+Line: 20
+
+Verify the XML and try again. at /var/www/html/vendor/magento/framework/Acl/Builder.php:73)"} []
+
+Check point !!

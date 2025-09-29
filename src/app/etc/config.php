@@ -360,6 +360,7 @@ return [
         'Magento_WishlistGraphQl' => 1,
         'MageMastery_Helloworld' => 1,
         'MageMastery_Jobs' => 1,
+        'MageMastery_News' => 1,
         'MageMastery_Popup' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeCustomerBalance' => 1,
