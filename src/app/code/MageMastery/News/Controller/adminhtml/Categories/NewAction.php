@@ -9,8 +9,6 @@ use Magento\Backend\App\Action\Context;
 
 class NewAction extends Action
 {
-    const ADMIN_RESOURCE = 'MageMastery_News::categories';
-
     protected $resultForwardFactory;
 
     public function __construct(
