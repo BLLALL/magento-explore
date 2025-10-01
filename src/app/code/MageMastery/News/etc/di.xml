@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
-    <virtualType name="MageMastery\News\Model\ResourceModel\Article\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+    <virtualType name="MageMasteryNewsArticleGridCollection" type="MageMastery\News\Model\ResourceModel\Article\Grid\Collection">
         <arguments>
             <argument name="mainTable" xsi:type="string">news_articles</argument>
             <argument name="resourceModel" xsi:type="string">MageMastery\News\Model\ResourceModel\Article</argument>
         </arguments>
     </virtualType>
-
-    <virtualType name="MageMastery\News\Model\ResourceModel\Category\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+    
+    <virtualType name="MageMasteryNewsCategoryGridCollection" type="MageMastery\News\Model\ResourceModel\Category\Grid\Collection">
         <arguments>
             <argument name="mainTable" xsi:type="string">news_categories</argument>
             <argument name="resourceModel" xsi:type="string">MageMastery\News\Model\ResourceModel\Category</argument>
@@ -18,8 +18,8 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="news_article_listing_data_source" xsi:type="string">MageMastery\News\Model\ResourceModel\Article\Grid\Collection</item>
-                <item name="news_category_listing_data_source" xsi:type="string">MageMastery\News\Model\ResourceModel\Category\Grid\Collection</item>
+                <item name="news_article_listing_data_source" xsi:type="string">MageMasteryNewsArticleGridCollection</item>
+                <item name="news_category_listing_data_source" xsi:type="string">MageMasteryNewsCategoryGridCollection</item>
             </argument>
         </arguments>
     </type>
@@ -36,6 +36,7 @@
     <virtualType name="ArticleGridDataProvider" type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
         <arguments>
             <argument name="filterPool" xsi:type="object" shared="false">ArticleGridFilterPool</argument>
+            <argument name="collectionFactory" xsi:type="object">Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory</argument>   
         </arguments>
     </virtualType>
 
@@ -50,6 +51,7 @@
 
     <virtualType name="CategoryGridDataProvider" type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
         <arguments>
+            <argument name="collectionFactory" xsi:type="object">Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory</argument>
             <argument name="filterPool" xsi:type="object" shared="false">CategoryGridFilterPool</argument>
         </arguments>
     </virtualType>

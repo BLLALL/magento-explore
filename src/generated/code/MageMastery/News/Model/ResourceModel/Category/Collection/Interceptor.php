@@ -17,6 +17,15 @@ class Interceptor extends \MageMastery\News\Model\ResourceModel\Category\Collect
     /**
      * {@inheritdoc}
      */
+    public function toOptionArray()
+    {
+        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'toOptionArray');
+        return $pluginInfo ? $this->___callPlugins('toOptionArray', func_get_args(), $pluginInfo) : parent::toOptionArray();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function getMainTable()
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'getMainTable');
@@ -597,15 +606,6 @@ class Interceptor extends \MageMastery\News\Model\ResourceModel\Category\Collect
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'toArray');
         return $pluginInfo ? $this->___callPlugins('toArray', func_get_args(), $pluginInfo) : parent::toArray($arrRequiredFields);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function toOptionArray()
-    {
-        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'toOptionArray');
-        return $pluginInfo ? $this->___callPlugins('toOptionArray', func_get_args(), $pluginInfo) : parent::toOptionArray();
     }
 
     /**

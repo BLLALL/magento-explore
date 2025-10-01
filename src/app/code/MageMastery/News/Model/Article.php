@@ -36,6 +36,15 @@ class Article extends AbstractModel implements ArticleInterface
     {
         $this->setData('title', $title);
     }
+    
+    public function getCategoryIds(): array
+    {
+        if (!$this->hasData('category_ids')) {
+            $ids = $this->getResource()->getCategoryIds($this);
+            $this->setData('category_ids', $ids);
+        }
+        return (array)$this->_getData('category_ids');
+    }
 
     public function getContent(): string
     {

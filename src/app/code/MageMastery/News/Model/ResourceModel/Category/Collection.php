@@ -18,4 +18,9 @@ class Collection extends AbstractCollection
         );
 
     }
+    public function toOptionArray()
+    {
+        return $this->_toOptionArray('category_id', 'name');
+    }
+
 }

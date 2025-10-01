@@ -67,12 +67,6 @@
                 <sorting>asc</sorting>
             </settings>
         </column>
-        <column name="name">
-            <settings>
-                <filter>text</filter>
-                <label translate="true">Name</label>
-            </settings>
-        </column>
         <column name="parent_id" class="MageMastery\News\Ui\Component\Listing\Column\ParentCategory">
             <settings>
                 <filter>text</filter>
@@ -80,9 +74,17 @@
                 <bodyTmpl>ui/grid/cells/html</bodyTmpl>
             </settings>
         </column>
+        <column name="name">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">Name</label>
+            </settings>
+        </column>
+
         <actionsColumn name="actions" class="MageMastery\News\Ui\Component\Listing\Column\Actions">
             <settings>
                 <indexField>category_id</indexField>
+                <!-- <sortOrder>40</sortOrder> -->
             </settings>
         </actionsColumn>
     </columns>

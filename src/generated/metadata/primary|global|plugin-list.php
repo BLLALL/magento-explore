@@ -4689,7 +4689,23 @@
         'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
       ),
     ),
+    'MageMasteryNewsArticleGridCollection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
     'MageMastery\\News\\Model\\ResourceModel\\Category\\Grid\\Collection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
+    'MageMasteryNewsCategoryGridCollection' => 
     array (
       'currentPageDetection' => 
       array (
@@ -9807,7 +9823,21 @@
         0 => 'currentPageDetection',
       ),
     ),
+    'MageMasteryNewsArticleGridCollection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
     'MageMastery\\News\\Model\\ResourceModel\\Category\\Grid\\Collection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
+    'MageMasteryNewsCategoryGridCollection_getCurPage___self' => 
     array (
       4 => 
       array (
